@@ -4,7 +4,15 @@ import ReactDOM from 'react-dom';
 
 // Create a react component
 const App = () => {
-  return <div>Hello Word</div>;
+  return (
+    <div>
+      <label class="label" for="name">
+        Enter name:
+      </label>
+      <input id="name" type="text" />
+      <button style={{backgroundColor: 'blue', color: 'white'}}>Submeter</button>
+    </div>
+  )
 };
 
 // Take the react component show it on the screen
